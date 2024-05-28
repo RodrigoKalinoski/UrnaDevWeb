@@ -3,26 +3,26 @@ let etapas = [{
         numeros: 5,
         candidatos: [{
             numero: '10001',
-            nome: 'Storm Troopper que bate a cabeça',
-            partido: 'VR - Velha República',
+            nome: 'Canarinho 100% Pistola',
+            partido: 'CBF',
             fotos: [
-                { url: '4.jpg', legenda: 'Vereador', small: false }
+                { url: '5.jpg', legenda: 'Vereador', small: false }
             ]
         },
         {
             numero: '10002',
-            nome: 'Jabba The Hutt',
-            partido: 'GCH - Grande Conselho Hutt',
+            nome: 'Zé Pequeno',
+            partido: 'Boca De Fumo',
             fotos: [
-                { url: '1.png', legenda: 'Vereador', small: false }
+                { url: '10.jpg', legenda: 'Vereador', small: false }
             ]
         },
         {
             numeros: '10003',
-            nome: 'Luke Skywalker',
-            partido: 'AR - Aliança Rebelde',
+            nome: 'Galvão Bueno',
+            partido: 'Rede Globo',
             fotos: [
-                { url: '2.png', legenda: 'Vereador', small: false }
+                { url: '11.jpg', legenda: 'Vereador', small: false }
             ]
         },
         {
@@ -36,26 +36,26 @@ let etapas = [{
     ]
 },
 {
-        titulo: 'PREFEITO',
+        titulo: 'PRESIDENTE',
         numeros: 2,
         candidatos: [{
-            numero: '66',
-            nome: 'Darth Vader',
-            partido: 'Império',
-            vice: 'Darth Maul',
+            numero: '13',
+            nome: 'Lula',
+            partido: 'PT',
+            vice: 'Dilma',
             fotos: [
-                { url: '66_1.png', legenda: 'Prefeito'},
-                { url: '66_2.png', legenda: 'Vice-Prefeito', small:true}
+                { url: '8.jpg', legenda: 'Presidente'},
+                { url: '12.jpg', legenda: 'Vice-Presidente', small: true }
             ]
         },
         {
-            numero: '99',
-            nome: 'Chewbacca',
-            partido: 'AR - Aliança Rebelde',
-            vice: 'Obi-Wan Kenobi',
+            numero: '22',
+            nome: 'Bolsonaro',
+            partido: 'Partido do Povo Brasileiro',
+            vice: 'Cachorro Caramelo',
             fotos: [
-                { url: '99_1.jpg', legenda: 'Prefeito'},
-                { url: '99_2.png', legenda: 'Vice-Prefeito', small:true}
+                { url: '7.jpg', legenda: 'Presidente'},
+                { url: '6.jpg', legenda: 'Vice-Presidente', small: true }
             ]
         },
     ]

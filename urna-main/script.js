@@ -63,13 +63,24 @@ function atualizaInterface() {
         }
 
         lateral.innerHTML = fotosHtml; // Exibe as fotos do candidato
+
+        // Verifica se o número é 13 e se o cargo é Presidente
+        if (etapa.titulo === 'PRESIDENTE' && numero === '13') {
+            let audioLula = document.getElementById('somLula');
+            audioLula.play();
+        } else if (etapa.titulo === 'PRESIDENTE' && numero === '22') {
+            let audioBolsonaro = document.getElementById('somBolsonaro');
+            audioBolsonaro.play();
+        } else if (etapa.titulo === 'VEREADOR' && numero === '10002') {
+            let audioZePequeno = document.getElementById('somZePequeno');
+            audioZePequeno.play();
+        }
     } else {
         seuVotoPara.style.display = 'block'; // Exibe "Seu voto para"
         aviso.style.display = 'block'; // Exibe o aviso
         descricao.innerHTML = '<div class="aviso--grande pisca">VOTO NULO</div>'; // Exibe aviso de voto nulo
     }
 }
-
 
 function clicou(n) {
     let elNumero = document.querySelector('.numero.pisca'); // Seleciona o campo que está piscando
@@ -125,7 +136,7 @@ function confirma() {
             document.querySelector('.tela').innerHTML = '<div class="aviso--gigante pisca">FIM.</div>'; // Exibe mensagem de fim
             console.log(votos); // Log da lista de votos
         }
-        
+
         // Reproduz o áudio de confirmação
         let audio = document.getElementById('somConfirmacao');
         audio.play();
